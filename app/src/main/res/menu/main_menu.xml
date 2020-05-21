@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="الصفحة الرئيسية" />
+
+        <item
+            android:id="@+id/nav_feed"
+            android:icon="@drawable/iccon"
+            android:title="آخر الأخبار" />
+
+        <item
+            android:id="@+id/nav_infos"
+            android:icon="@drawable/path"
+            android:title="تشخيص الصحة" />
+
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/icreport"
+            android:title="ابلاغ" />
+
+
+    </group>
+
+    <item >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_done_black_24dp"
+                    android:title="تسجيل الدخول" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/icon"
+                    android:title="خروج" />
+
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
